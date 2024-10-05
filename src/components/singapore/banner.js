@@ -25,7 +25,7 @@ const Banner = () => {
                     </div>
                     <div className="col-6 col-sm-6">
                         <div className="dev-logo">
-                            <a href='#'><img alt="" src={`${basePath}/img/singapore/damac-logo.png`} /></a>
+                            <a href='https://www.damacproperties.com/en/'><img alt="" src={`${basePath}/img/singapore/damac-logo.png`} /></a>
                         </div>
                     </div>
                 </div>

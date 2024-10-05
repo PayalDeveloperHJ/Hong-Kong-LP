@@ -14,9 +14,9 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 const FAQSection = () => {
     const [expandedIndex, setExpandedIndex] = useState(null);
 
-  const toggleItem = (index) => {
-    setExpandedIndex(prevIndex => (prevIndex === index ? null : index));
-  };
+//   const toggleItem = (index) => {
+//     setExpandedIndex(prevIndex => (prevIndex === index ? null : index));
+//   };
     return (
         <div className='container-fluid pb-100 pt-100' style={{backgroundColor: "#F7F7F7"}}>
             <div className='container'>
