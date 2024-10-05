@@ -1,0 +1,119 @@
+{
+    "title": "Dubai Real Estate Investment Event",
+    "subtitle": "Live in Hongkong!",
+    "aboutHJtitle": "About HJ Real Estates",
+    "abouttext": "Founded in 2012, has grown into a leading real estate company with a strong presence in over six countries. Starting with a small team of five passionate agents, we now have a team of 500+ professionals. Over the past 12 years, our success has been driven by our commitment to excellence, personalized service, and innovation.With a client-first approach, we've built a reputation for providing 360-degree real estate services in Dubai. Whether you're looking for a lucrative investment or your dream home, we're here to guide you every step of the way.",
+    "info": [
+        {
+            "counter": "1500",
+            "title": "Properties Sold",
+            "icone": "../img/singapore/properties-icon.png"
+        },
+        {
+            "counter": "5",
+            "title": "Wolrdwide Presence",
+            "icone": "../img/singapore/worlwide-icon.png"
+        },
+        {
+            "counter": "250",
+            "title": "Real Estate Experts",
+            "icone": "../img/singapore/experts-icon.png"
+        },
+        {
+            "counter": "1B",
+            "title": "Deals Done",
+            "icone": "../img/singapore/deals-icon.png"
+        }
+    ],
+    "whyDamacInfo": {
+        "title": "WHY DAMAC PROPERTIES",
+        "decri": "DAMAC Properties has been at the forefront of the Middle East’s luxury real estate market since 2002, delivering luxury residential, commercial and leisure properties across the region, including the UAE, Saudi Arabia, Qatar, Jordan, Lebanon, Maldives, Canada and the United Kingdom.",
+        "damaclogo": "../img/singapore/damac-logo.png",
+        "list": [
+            {
+                "icon": "../img/singapore/home-icon.png",
+                "counter": "47,000+",
+                "text": "Homes delivered"
+            },
+            {
+                "icon": "../img/singapore/planing-icon.png",
+                "counter": "33,000",
+                "text": "In planning and progress"
+            },
+            {
+                "icon": "../img/singapore/award.png",
+                "counter": "100",
+                "text": "award received"
+            },
+            {
+                "icon": "../img/singapore/collab-icon.png",
+                "counter": "Collaborations",
+                "text": "With global luxury brands"
+            }
+        ]
+    },
+    "propertySection": {
+        "title": "Property Highlight",
+        "PropertyList": [
+            {
+                "img": "../img/singapore/Mask group-2.jpg",
+                "projectName": "Safa Two",
+                "appartmentType": "Studio, 1,2,3 Bedroom Apartment",
+                "address": "Business Bay",
+                "price": "AED 750,000"
+            },
+            {
+                "img": "../img/singapore/Mask group-4.jpg",
+                "projectName": "Altitude",
+                "appartmentType": "1,2,3 Bedroom Apartment",
+                "address": "Business Bay",
+                "price": "AED 1,200,000"
+            },
+            {
+                "img": "../img/singapore/Mask group-5.jpg",
+                "projectName": "Shoreline",
+                "appartmentType": "1,2,3,4 ,5 Bedroom Apartment",
+                "address": "Al Marjan Island",
+                "price": "AED 1,800,000"
+            },
+            {
+                "img": "../img/singapore/Mask group.jpg",
+                "projectName": "Damac Sun city",
+                "appartmentType": "Studio, 1, 2, 3, 4 Bedrooms",
+                "address": "Business Bay, Dubai",
+                "price": "AED 2,250,000"
+            },
+            {
+                "img": "../img/singapore/Mask group-1.jpg",
+                "projectName": "Water Vein at Damac Riverside",
+                "appartmentType": "4 ,5 Bedrooms Villa",
+                "address": "Damac Riverside",
+                "price": "AED 2,000,000"
+            },
+            {
+                "img": "../img/singapore/Mask group-3.jpg",
+                "projectName": "Utopia",
+                "appartmentType": "6,7 Bedroom Villa",
+                "address": "Damac Hills Dubai",
+                "price": "AED 18,100,000"
+            }
+        ]
+    },
+    "FAQSection":{
+        "title":"Exploring Real Estate Opportunities in Dubai",
+        "FAQs":[
+            {
+                "question" : "Are there any restrictions for foreign buyers in Dubai's real estate market?",
+                "answer": "No, foreign investors can purchase freehold properties in designated areas in Dubai. There are fewer restrictions compared to Singapore, where foreigners face higher taxes and fees when buying property, particularly for non-condominium properties. . For more details, let our agent assist you!"
+            },
+            {
+                "question" : "What are the property taxes in dubai?",
+                "answer": "Dubai is a tax-free environment with no property taxes, income taxes, or capital gains taxes on real estate investments. This is a major advantage over Singapore, where foreign buyers face high stamp duties and progressive property taxes. . For more details, let our agent assist you!"
+            },
+            {
+                "question" : "What financing options are available for foreigners investing in Dubai?",
+                "answer": "Foreign buyers in Dubai can generally obtain mortgages with 60-80% loan-to-value (LTV) ratios. Interest rates in Dubai are competitive, ranging from 4-6%, which allows greater flexibility. In Singapore, loan-to-value ratios are more restricted, especially for foreign buyers or those purchasing second homes. For more details, let our agent assist you!"
+            }
+        ]
+    }
+}
