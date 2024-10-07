@@ -102,6 +102,7 @@ body {
     margin-bottom: 30px !important;
     border-radius: unset !important;
     color: #7F868D;
+    font-family: 'TT Commons', sans-serif;
 }
 
 .form-control:focus {
@@ -439,8 +440,33 @@ input.c_code {
     }
 
     .reg_btn button {
-        font-size: 16px;
+        font-size: 18px;
         padding: 10px 30px;
+        margin-bottom: 30px;
+    }
+
+    .registrationpopup form label {
+        width: 90%;
+        float: inline-end;
+        margin-bottom: 20px;
+    }
+
+    .list_box {
+        & .box_details {
+
+            p.address,
+            p.flate-type {
+                font-size: 15px !important;
+            }
+        }
+    }
+
+    .list_box {
+        & .box_details {
+            button {
+                font-size: 16px !important;
+            }
+        }
     }
 
     .about_heading h2 {
@@ -472,7 +498,7 @@ input.c_code {
     }
 
     .whyus_text p {
-        font-size: 16px;
+        font-size: 13px;
         line-height: 26px;
     }
 
@@ -485,13 +511,14 @@ input.c_code {
     }
 
     .damac-text h3 {
-        font-size: 18px;
+        font-size: 12px;
         line-height: normal;
         letter-spacing: normal;
     }
 
     .list_text h3 {
-        font-size: 20px;
+        font-size: 26px;
+        line-height: 23px;
     }
 
     .whyus_text h3 {
@@ -501,12 +528,23 @@ input.c_code {
     }
 
     .list_text p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .list_text {
-        text-align: center;
-        margin-bottom: 30px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    .mob-ped {
+        padding-right: 0 !important;
+    }
+
+    .damac-text p {
+        font-size: 10px;
+        line-height: normal;
+        letter-spacing: normal;
+        text-transform: capitalize;
     }
 
     .row.align-cent.bg-section {
@@ -515,8 +553,12 @@ input.c_code {
 
     .damac-logo-list {
         text-align: center;
-        margin-bottom: 100px;
-        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-top: 0px;
+
+        img {
+            width: 55%;
+        }
     }
 
     .damac-text {
@@ -555,7 +597,7 @@ input.c_code {
     }
 
     .about_text>p {
-        font-size: 15px;
+        font-size: 13px;
         line-height: 26px;
     }
 
@@ -730,5 +772,148 @@ input.c_code {
         img {
             padding-bottom: 0;
         }
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1439px) {
+    .home .container {
+        max-width: 1140px !important;
+    }
+
+    .roi-map>img {
+        width: 100%;
+    }
+
+    .banner-logo img {
+        width: 35%;
+    }
+
+    .dev-logo img {
+        width: 40%;
+    }
+
+    .banner_text h2 {
+        font-size: 38px !important;
+        line-height: 44.97px;
+        padding: 30px;
+    }
+
+    .banner_list p {
+        font-size: 30px !important;
+    }
+
+    .reg_btn button {
+        font-size: 28px !important;
+        padding: 15px 75px;
+    }
+
+    .about_heading h2,
+    .roi-detail h2 {
+        font-size: 38px !important;
+    }
+
+    .about_heading h3 {
+        font-size: 32px !important;
+    }
+
+    .about_text>p {
+        font-size: 20px !important;
+    }
+
+    .list_text h3 {
+        font-size: 38px !important;
+    }
+
+    .list_text p {
+        font-size: 14px !important;
+    }
+
+    .row.align-cent.bg-section {
+        padding: 50px;
+    }
+
+    .whyus_text h3 {
+        letter-spacing: normal;
+    }
+
+    .whyus_text p {
+        font-size: 16px !important;
+    }
+
+    .damac_logo>img {
+        width: 100%;
+    }
+
+    .mob-ped {
+        padding-right: 0 !important;
+    }
+
+    .list_box {
+        & .box_details {
+
+            p.address,
+            p.flate-type {
+                font-size: 15px !important;
+            }
+        }
+    }
+
+    .list_box {
+        & .box_details {
+            h3 {
+                font-size: 17px !important;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    .roi-descri p {
+        font-size: 18px !important;
+    }
+
+    .roi-detail .accordion__button {
+        font-size: 23px !important;
+    }
+
+    .roi-detail .accordion__panel p {
+        font-size: 18px !important;
+        line-height: 32px;
+    }
+
+    .footer_section {
+        & .footer_right {
+            & ul.footer_menu {
+                & li {
+                    a {
+                        font-size: 16px !important;
+                        padding: 0 7px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer_section {
+        & .footer_left {
+            p {
+                font-size: 14px !important;
+            }
+        }
+    }
+
+    .footer_section {
+        & .footer_right {
+            & ul.social_icons {
+                li {
+                    padding-right: 25px;
+                }
+            }
+        }
+    }
+
+    .damac-text p {
+        font-size: 15px !important;
+        letter-spacing: normal;
+        text-transform: capitalize;
     }
 }

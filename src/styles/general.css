@@ -241,6 +241,7 @@ body {
 
                 &:last-child {
                     border-right: none;
+
                     a {
                         padding-right: 0;
                     }
@@ -527,7 +528,7 @@ button.agent_talk_btn {
     overflow: auto;
     border-radius: 4px;
     outline: none;
-    padding: 20px;
+    padding: 20px 30px;
     height: 100vh;
 
     .registration-form {
@@ -559,7 +560,7 @@ button.agent_talk_btn {
     width: 45%;
     margin: 0 auto;
     background: #fff;
-    border-radius: 15px;
+    border-radius: 12px;
     position: relative;
     top: 7%;
 
@@ -610,7 +611,7 @@ button.agent_talk_btn {
 
         label {
             color: #7F868D;
-            font-size: 18px;
+            font-size: 15px;
             padding-left: 5px;
             font-weight: 300;
         }
@@ -677,6 +678,11 @@ button.agent_talk_btn {
 
 /* Extra Small Devices, Phones */
 @media (min-width: 320px) and (max-width: 767px) {
+
+    .react-tel-input input.form-control {
+        font-size: 14px !important;
+    }
+
     .banner {
         height: 100%;
         padding-bottom: 100px;
@@ -684,14 +690,14 @@ button.agent_talk_btn {
 
     .banner-logo {
         img {
-            width: 75%;
+            width: 50%;
             padding-bottom: 0;
         }
     }
 
     .dev-logo {
         img {
-            width: 100%;
+            width: 75%;
         }
     }
 
@@ -759,7 +765,7 @@ button.agent_talk_btn {
         & .box_details {
             h3 {
                 color: #2A3884;
-                font-size: 20px;
+                font-size: 18px;
             }
 
         }
@@ -858,11 +864,11 @@ button.agent_talk_btn {
         width: 100%;
 
         h2 {
-            font-size: 42px;
+            font-size: 28px;
         }
 
         & form {
-            padding: 50px 30px;
+            padding: 20px;
 
             & input.formsubmitbtn {
                 padding: 20px;
@@ -876,18 +882,22 @@ button.agent_talk_btn {
             }
 
             & input.formsubmitbtn {
-                padding: 20px;
-                width: 100%;
+                padding: 10px 50px;
+                width: auto;
+                font-size: 18px;
+                margin-top: 20px;
+                margin-bottom: 20px;
             }
         }
     }
 
     .close-button {
         font-size: 25px !important;
-        right: 0 !important;
-        top: 6% !important;
+        right: 2% !important;
+        top: 2% !important;
         width: 40px !important;
         height: 40px !important;
+        background-color: unset !important;
     }
 
     .second_row_section {
@@ -943,8 +953,46 @@ button.agent_talk_btn {
     }
 
     .banner-logo img {
-        width: 60%;
-        padding-bottom: 40px;
+        width: 50%;
+        padding-bottom: 0px;
+    }
+
+    .dev-logo img {
+        width: 75%;
+    }
+
+    .RegistrationFormModel {
+        .close-button {
+            background-color: unset !important;
+            right: 2%;
+            top: 2%;
+            width: 50px;
+            height: 50px;
+            font-size: 32px;
+        }
+    }
+
+    .footer_section {
+        & .footer_right {
+            & ul.social_icons {
+                li {
+                    padding-right: 18px !important;
+                }
+            }
+        }
+    }
+
+    .registrationpopup {
+        & form {
+            label {
+                width: 90%;
+                float: inline-end;
+            }
+        }
+    }
+
+    .registrationpopup {
+        width: 75%;
     }
 
     .registration-form {

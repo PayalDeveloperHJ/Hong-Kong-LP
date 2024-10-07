@@ -93,7 +93,7 @@ const RegistrationFormPopup = ({onSuccess}) => {
           required
         />
         <PhoneInput
-          country={'us'} // Default country
+          country={'ae'} // Default country
           value={formData.contactnumber}
           onChange={handlePhoneChange}
           inputStyle={{ width: '100%' }}

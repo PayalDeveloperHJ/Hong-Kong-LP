@@ -1,0 +1,230 @@
+{
+    "ProductSection": {
+        "title": "Latest projects in Dubai",
+        "subtitle": "Discover your dream home",
+        "ProjectList": [
+            {
+                "img": "../img/Sobha-Orbis.png",
+                "projectName": "Sobha Orbis",
+                "developerLogo": "../img/sobha-logo.png",
+                "appartmentType": "1/2 bedroom apartments",
+                "address": "Dubai Motor City",
+                "price": "AED 985,000"
+            },
+            {
+                "img": "../img/Clip path group.png",
+                "projectName": "EVERGR1N",
+                "developerLogo": "../img/EVERGR1N-logo.png",
+                "appartmentType": "Studios, 1 and 2 bedrooms",
+                "address": "Jumeirah Garden City",
+                "price": "AED  1,038,000"
+            },
+            {
+                "img": "../img/Bayz 102.png",
+                "projectName": "Bayz 102",
+                "developerLogo": "../img/danube-logo.png",
+                "appartmentType": "1, 2, and 3 bedrooms",
+                "address": "Business Bay",
+                "price": "AED 1,350,000"
+            },
+            {
+                "img": "../img/Vivid.png",
+                "projectName": "Vivid",
+                "developerLogo": "../img/EVERGR1N-logo.png",
+                "appartmentType": "Studios, 1, 2 and 3.5 bedroom apartments",
+                "address": "Jumeirah Village Triangle",
+                "price": "AED 762,000"
+            },
+            {
+                "img": "../img/EVERGR1N.png",
+                "projectName": "Sora Beach Residences",
+                "developerLogo": "../img/sora-beach-logo.png",
+                "appartmentType": "1, 2, 3 and 4 bedrooms",
+                "address": "Coral Island",
+                "price": "AED 2,800,000"
+            },
+            {
+                "img": "../img/Verve-City-Walk.png",
+                "projectName": "Verve City Walk",
+                "developerLogo": "../img/meraas-logo.png",
+                "appartmentType": "Studios, 1, 2, 3, 4, and 5 bedrooms",
+                "address": "City Walk",
+                "price": "AED 2,120,000"
+            }
+        ]
+    },
+    "LuxurySection": {
+        "title": "Distinctive real estate consultations from HJ Real Estates",
+        "description": "If you're looking to invest in ready properties in Dubai, the experts at HJ Properties are here to assist you. Whether you're seeking a home for personal use or an investment opportunity, our team offers expert guidance tailored to your needs. We’ll help you find the ideal property and ensure a smooth, secure buying experience.",
+        "LuxuryList": [
+            {
+                "sliderimges": [
+                    {
+                        "img": "../img/luxury/Armani Beach Residences - Arada/Armani Logo.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Armani Beach Residences - Arada/01.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Armani Beach Residences - Arada/02.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Armani Beach Residences - Arada/03.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Armani Beach Residences - Arada/04.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Armani Beach Residences - Arada/05.jpg"
+                    }
+                ],
+                "name": "Armani Beach Residences at Palm Jumeirah",
+                "secondName": "Palm Jumeirah",
+                "price": "Prices start from 23M",
+                "bedrooms": "2, 3, 4, 5 and 7 bedrooms",
+                "logo": "../img/luxury/Vector01.png",
+                "backgroundColorOption": "#ebe7da"
+            },
+            {
+                "sliderimges": [
+                    {
+                        "img": "../img/luxury/Nad Al Sheba/Nad Al Sheba-11.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Nad Al Sheba/Nad Al Sheba-12.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Nad Al Sheba/Nad Al Sheba-13.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Nad Al Sheba/Nad Al Sheba-14.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Nad Al Sheba/Nad Al Sheba-15.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Nad Al Sheba/Nad Al Sheba-16.jpg"
+                    }
+                ],
+                "name": "Nad Al Sheba Gardens Villas 5",
+                "secondName": "Nad Al Sheba",
+                "price": "Prices start from 4.18M",
+                "bedrooms": "3, 4, 5, 6 and 7 bedrooms",
+                "logo": "../img/luxury/Vector02.png",
+                "backgroundColorOption": "#1d1d1b"
+            },
+            {
+                "sliderimges": [
+                    {
+                        "img": "../img/luxury/Lavita at the oasis - Emaar/Lavita-17.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Lavita at the oasis - Emaar/Lavita-18.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Lavita at the oasis - Emaar/Lavita-19.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Lavita at the oasis - Emaar/Lavita-20.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Lavita at the oasis - Emaar/Lavita-21.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Lavita at the oasis - Emaar/Lavita-22.jpg"
+                    }
+                ],
+                "name": "Lavita - The Oasis",
+                "secondName": "The Oasis",
+                "price": "Prices start from 36.61M",
+                "bedrooms": "6, 7 bedrooms",
+                "logo": "../img/luxury/Vector03.png",
+                "backgroundColorOption": "#42281d"
+            },
+            {
+                "sliderimges": [
+                    {
+                        "img": "../img/luxury/Sohba Elwood/Elwood-29.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Sohba Elwood/Elwood-30.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Sohba Elwood/Elwood-31.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Sohba Elwood/Elwood-32.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Sohba Elwood/Elwood-33.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/Sohba Elwood/Elwood-34.jpg"
+                    }
+                ],
+                "name": "Sobha Elwood",
+                "secondName": "Dubai Land",
+                "price": "Prices start from 7.93M",
+                "bedrooms": "4, 5, and 6 bedrooms",
+                "logo": "../img/luxury/Vector04.png",
+                "backgroundColorOption": "#0f2611"
+            },
+            {
+                "sliderimges": [
+                    {
+                        "img": "../img/luxury/The W - Arada/The W-23.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/The W - Arada/The W-24.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/The W - Arada/The W-25.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/The W - Arada/The W-26.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/The W - Arada/The W-27.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/The W - Arada/The W-28.jpg"
+                    }
+                ],
+                "name": "The W",
+                "secondName": "Dubai Harbour",
+                "price": "Prices start from 4.20M",
+                "bedrooms": "1, 2, 3, 4, and 5 bedrooms",
+                "logo": "../img/luxury/Vector01.png",
+                "backgroundColorOption": "#1d1d1b"
+            },
+            {
+                "sliderimges": [
+                    {
+                        "img": "../img/luxury/The Acres - Meeras/The Acres-35.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/The Acres - Meeras/The Acres-36.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/The Acres - Meeras/The Acres-37.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/The Acres - Meeras/The Acres-38.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/The Acres - Meeras/The Acres-39.jpg"
+                    },
+                    {
+                        "img": "../img/luxury/The Acres - Meeras/The Acres-40.jpg"
+                    }
+                ],
+                "name": "The Acres Estates",
+                "secondName": "Dubai Land",
+                "price": "Prices start from 5.50M",
+                "bedrooms": "3, 4, and 5 bedrooms",
+                "logo": "../img/luxury/Vector03.png",
+                "backgroundColorOption": "#363c2c"
+            }
+        ]
+    }
+}

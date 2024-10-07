@@ -30,14 +30,14 @@ const WhyUS = () => {
                         <div className='row'>
                             {WhyDamacData?.whyDamacInfo?.list?.map((item, index) => {
                                 return (
-                                    <div className='col-lg-6 col-sm-6 col-12 pb-30' key={index}>
+                                    <div className='col-lg-6 col-sm-6 col-6 pb-30 mob-align' key={index}>
                                         <div className='row align-cent'>
-                                            <div className='col-lg-3 col-sm-3 col-3'>
+                                            <div className='col-lg-3 col-sm-3 col-5 mob-ped'>
                                                 <div className='damac_logo'>
                                                     <img src={`${basePath}/${item?.icon}`} alt='' />
                                                 </div>
                                             </div>
-                                            <div className='col-lg-9 col-sm-9 col-9'>
+                                            <div className='col-lg-9 col-sm-9 col-7'>
                                                 <div className='damac-text'>
                                                     <h3>{item?.counter}+</h3>
                                                     <p>{item?.text}</p>
