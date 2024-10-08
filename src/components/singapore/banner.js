@@ -7,14 +7,14 @@ import getBasePath from '../../utils/getBasePath';
 const Banner = () => {
     const [isOpen, setIsOpen] = useState(false);
     const basePath = getBasePath();
-    const hjLogo = `${basePath}/img/singapore/HJLogo.svg`;
+    const hjLogo = `${basePath}/img/singapore/HJLogowhite.svg`;
 
     const onRequestClose = () => {
         setIsOpen(false);
     }
     return (
         <div className="singapore_banner"
-            style={{ background: `url(${basePath}/img/singapore/Banner.jpg)` }}
+            style={{ background: `url(${basePath}/img/singapore/DamacLandingPageBanner.jpg)` }}
         >
             <div className="container">
                 <div className="row align-cent">
@@ -25,7 +25,7 @@ const Banner = () => {
                     </div>
                     <div className="col-6 col-sm-6">
                         <div className="dev-logo">
-                            <a href='https://www.damacproperties.com/en/'><img alt="" src={`${basePath}/img/singapore/damac-logo.png`} /></a>
+                            <a href='https://www.damacproperties.com/en/'><img alt="" src={`${basePath}/img/singapore/damac-logo01.png`} /></a>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ const Banner = () => {
                     Investments in Dubai</h2>
             </div>
             <div className='banner_list'>
-                <p>Zero Tax | 8-12% ROI | Free Consultationx</p>
+                <p>Zero Tax | 8-12% ROI | Free Consultation</p>
             </div>
             <div className="reg_btn mt-50">
                 <button onClick={() => setIsOpen(true)}>Register Now</button>
