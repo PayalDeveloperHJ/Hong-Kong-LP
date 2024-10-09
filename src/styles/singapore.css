@@ -189,24 +189,27 @@ input.c_code {
     color: #EB8023;
 }
 
-.about_text {
+.singapore_about .about_text {
     padding-top: 20px;
+    /* position: relative; */
+    /* padding-right: 10%; */
+}
+
+.singapore_about {
     position: relative;
 }
 
-.about_text::before {
+/* .singapore_about::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /*background-image: url('/img/singapore/singaporeLogo.png'); /* Correct path */
-    background-size: cover;
+    right: 0;
+    width: 16%;
+    height: 50%;
+    background-image: url('../../public/img/singapore/hong-kong-id.png');
+    background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.5;
-    /* Optional for transparency */
-}
+    background-size: contain;
+} */
 
 .about_text>h3 {
     font-family: 'Helvetica Neue', sans-serif;
@@ -232,6 +235,7 @@ input.c_code {
     font-weight: 700;
     color: #E97C04;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .list_text h3 {
@@ -239,6 +243,11 @@ input.c_code {
     font-weight: 700;
     letter-spacing: 0.05em;
     color: #085394;
+    margin-bottom: 0;
+}
+
+.list_icon>img {
+    width: 100%;
 }
 
 .list_text {

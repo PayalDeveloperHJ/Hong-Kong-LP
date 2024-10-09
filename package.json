@@ -1,5 +1,6 @@
 {
   "name": "hongkong-lp",
+  "homepage": "/hongkong/lp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

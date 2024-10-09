@@ -22,8 +22,8 @@ const WhyUS = () => {
                             <span>{WhyDamacData?.whyDamacInfo?.asof}</span>
                         </div>
                     </div>
-                    <div className='col-lg-1'></div>
-                    <div className='col-lg-6 col-sm-12 col-xs-12'>
+                    {/* <div className='col-lg-1'></div> */}
+                    <div className='col-lg-7 col-sm-12 col-xs-12'>
                         <div className='damac-logo-list'>
                             <img src={`${basePath}/${WhyDamacData?.whyDamacInfo?.damaclogo}`} alt='' />
                         </div>
@@ -39,7 +39,7 @@ const WhyUS = () => {
                                             </div>
                                             <div className='col-lg-9 col-sm-9 col-7'>
                                                 <div className='damac-text'>
-                                                    <h3>{item?.counter}+</h3>
+                                                    <h3>{item?.counter}</h3>
                                                     <p>{item?.text}</p>
                                                 </div>
                                             </div>

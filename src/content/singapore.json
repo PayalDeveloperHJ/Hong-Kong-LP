@@ -1,8 +1,8 @@
 {
     "title": "Dubai Real Estate Investment Event",
-    "subtitle": "Live in Hongkong!",
+    "subtitle": "Live in Hong kong!",
     "aboutHJtitle": "About HJ Real Estates",
-    "abouttext": "Founded in 2012, has grown into a leading real estate company with a strong presence in over six countries. Starting with a small team of five passionate agents, we now have a team of 500+ professionals. Over the past 12 years, our success has been driven by our commitment to excellence, personalized service, and innovation.With a client-first approach, we've built a reputation for providing 360-degree real estate services in Dubai. Whether you're looking for a lucrative investment or your dream home, we're here to guide you every step of the way.",
+    "abouttext": "Founded in 2012, has grown into a leading real estate company with a strong presence in over six countries. Starting with a small team of five passionate agents, we now have a team of 500+ professionals. Over the past 12 years, our success has been driven by our commitment to excellence, personalized service, and innovation. With a client-first approach, we've built a reputation for providing 360-degree real estate services in Dubai. Whether you're looking for a lucrative investment or your dream home, we're here to guide you every step of the way.",
     "info": [
         {
             "counter": "1500",
@@ -11,7 +11,7 @@
         },
         {
             "counter": "5",
-            "title": "Wolrdwide Presence",
+            "title": "Worldwide Presence",
             "icone": "../img/singapore/worlwide-icon.png"
         },
         {
@@ -27,7 +27,7 @@
     ],
     "whyDamacInfo": {
         "title": "WHY DAMAC PROPERTIES",
-        "decri": "DAMAC Properties has been at the forefront of the Middle East’s luxury real estate market since 2002, delivering luxury residential, commercial and leisure properties across the region, including the UAE, Saudi Arabia, Qatar, Jordan, Lebanon, Maldives, Canada and the United Kingdom.",
+        "decri": "DAMAC Properties has been at the forefront of the Middle East’s luxury real estate market since 2002, delivering luxury residential, commercial, and leisure properties across the region, including the UAE, Saudi Arabia, Qatar, Jordan, Lebanon, Maldives, Canada, and the United Kingdom.",
         "damaclogo": "../img/singapore/damac-logo.png",
         "list": [
             {
@@ -37,13 +37,13 @@
             },
             {
                 "icon": "../img/singapore/planing-icon.png",
-                "counter": "33,000",
+                "counter": "33,000+",
                 "text": "In planning and progress"
             },
             {
                 "icon": "../img/singapore/award.png",
-                "counter": "100",
-                "text": "award received"
+                "counter": "100+",
+                "text": "Awards received"
             },
             {
                 "icon": "../img/singapore/collab-icon.png",
@@ -58,21 +58,21 @@
             {
                 "img": "../img/singapore/Mask group-2.jpg",
                 "projectName": "Safa Two",
-                "appartmentType": "Studio, 1,2,3 Bedroom Apartment",
+                "appartmentType": "Studio, 1, 2, 3 Bedroom Apartment",
                 "address": "Business Bay",
                 "price": "AED 750,000"
             },
             {
                 "img": "../img/singapore/Mask group-4.jpg",
                 "projectName": "Altitude",
-                "appartmentType": "1,2,3 Bedroom Apartment",
+                "appartmentType": "1, 2, 3 Bedroom Apartment",
                 "address": "Business Bay",
                 "price": "AED 1,200,000"
             },
             {
                 "img": "../img/singapore/Mask group-5.jpg",
                 "projectName": "Shoreline",
-                "appartmentType": "1,2,3,4 ,5 Bedroom Apartment",
+                "appartmentType": "1, 2, 3, 4, 5 Bedroom Apartment",
                 "address": "Al Marjan Island",
                 "price": "AED 1,800,000"
             },
@@ -86,14 +86,14 @@
             {
                 "img": "../img/singapore/Mask group-1.jpg",
                 "projectName": "Water Vein at Damac Riverside",
-                "appartmentType": "4 ,5 Bedrooms Villa",
+                "appartmentType": "4, 5 Bedrooms Villa",
                 "address": "Damac Riverside",
                 "price": "AED 2,000,000"
             },
             {
                 "img": "../img/singapore/Mask group-3.jpg",
                 "projectName": "Utopia",
-                "appartmentType": "6,7 Bedroom Villa",
+                "appartmentType": "6, 7 Bedroom Villa",
                 "address": "Damac Hills Dubai",
                 "price": "AED 18,100,000"
             }
@@ -107,7 +107,7 @@
                 "answer": "No, foreign investors can purchase freehold properties in designated areas in Dubai. There are fewer restrictions compared to Singapore, where foreigners face higher taxes and fees when buying property, particularly for non-condominium properties. . For more details, let our agent assist you!"
             },
             {
-                "question" : "What are the property taxes in dubai?",
+                "question" : "What are the property taxes in Dubai?",
                 "answer": "Dubai is a tax-free environment with no property taxes, income taxes, or capital gains taxes on real estate investments. This is a major advantage over Singapore, where foreign buyers face high stamp duties and progressive property taxes. . For more details, let our agent assist you!"
             },
             {
