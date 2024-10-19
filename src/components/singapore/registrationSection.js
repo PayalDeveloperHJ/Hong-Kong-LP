@@ -1,15 +1,12 @@
-
 import React, { useState } from 'react';
+import RegistrationData from '../../content/singapore.json';
 import PhoneInput from 'react-phone-input-2';
-import 'react-phone-input-2/lib/style.css'; // Import the styles
-import getBasePath from '../../utils/getBasePath';
+import 'react-phone-input-2/lib/style.css';
 
 
-const RegistrationPopupForm = () => {
-    const basePath = getBasePath();
+const RegistrationSection = () => {
     const [formData, setFormData] = useState({
-        fname: '',
-        lname: '',
+        fullname: '',
         useremain: '',
         contactnumber: '',
         countrycode: '',
@@ -37,11 +34,10 @@ const RegistrationPopupForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setError('');
-        // setSuccessMessage('');
         setIsSubmitting(true);
 
         const formSchema = {
-            name: formData.fname + " " + formData.lname,
+            name: formData.fullname,
             email: formData.useremain,
             mobile: formData.contactnumber,
             countrycode: formData.countrycode,
@@ -63,11 +59,11 @@ const RegistrationPopupForm = () => {
                 return response.json();
             })
             .then((data) => {
+                console.log("Success:", data);
                 if (data?.data !== true) {
-                    // alert("Oops! This number is already registered. Try another.")
                     setError('Oops! This number is already registered. Try with another number.');
                 } else {
-                   window.location.href = 'https://hjrealestates.com/event/thank-you';
+                    window.location.href = 'https://hjrealestates.com/event/thank-you';
                 }
                 setIsSubmitting(false);
             })
@@ -76,43 +72,26 @@ const RegistrationPopupForm = () => {
             });
 
     };
+
     return (
-        <div className='registrationPopupForm'>
-            <div className='container-fluid'>
+        <div className='formSection'>
+            <div className='container-fluid pb-100 pt-100'>
                 <div className='container'>
-                    <div className='registration'>
-                        <div className='row reg_align'>
-                            <div className='col-lg-6 col-sm-6 col-12'>
-                                <div className='registration_img'>
-                                    <img src={`${basePath}/img/singapore/registration-side-img-desc.png`} alt={`Registration`} className='deck_img' />
-                                    <img src={`${basePath}/img/singapore/registration-side-img-mob.png`} alt={`Registration`} className='mob_img' />
-                                    <div className='reg_desc'>
-                                        <h2>Registration<span className='dot'></span></h2>
-                                        <p>Fill out the form, and one of our team members will get in touch with you soon</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='col-lg-6 col-sm-6 col-12'>
+                    <div className='row align-cent'>
+                        <div className='col-lg-5 col-sm-6 col-12'>
+                            <div className='regFormDiv'>
                                 <form onSubmit={handleSubmit}>
-                                    {error && <p style={{ color: 'red' }}>{error}</p>}
+                                    {error && <p style={{ color: 'red', fontSize: '14px' }}>{error}</p>}
                                     <input
                                         type="text"
-                                        name="fname"
-                                        value={formData.fname}
+                                        name="fullname"
+                                        value={formData.fullname}
                                         onChange={handleChange}
-                                        placeholder="First Name*"
-                                        required
-                                    />
-                                    <input
-                                        type="text"
-                                        name="lname"
-                                        value={formData.lname}
-                                        onChange={handleChange}
-                                        placeholder="Last Name*"
+                                        placeholder="Full Name*"
                                         required
                                     />
                                     <PhoneInput
-                                        country={'hk'}
+                                        country={'hk'} // Default country
                                         value={formData.contactnumber}
                                         onChange={handlePhoneChange}
                                         inputStyle={{ width: '100%' }}
@@ -127,17 +106,25 @@ const RegistrationPopupForm = () => {
                                         placeholder="Email"
                                         required
                                     />
-                                    <input type="checkbox" id="agree1" name="agree1" value="yesno" />
-                                    <label for="agree1"> Keep me informed about upcoming property launches and exclusive offers.</label>
-
-                                    <input type="submit" value="Submit" className={isSubmitting ? 'btndisabled formsubmitbtn' : 'formsubmitbtn'} />
+                                    <input
+                                        type="submit"
+                                        value="Register"
+                                        className={isSubmitting ? 'btndisabled formsubmitbtn' : 'formsubmitbtn'}
+                                    />
                                 </form>
+                            </div>
+                        </div>
+                        <div className='col-lg-1'></div>
+                        <div className='col-lg-6 col-sm-6 col-12'>
+                            <div className='formTextDiv'>
+                                <h2>{RegistrationData?.RegistrationSection?.title}<span className="dot"></span></h2>
+                                <p>{RegistrationData?.RegistrationSection?.description}</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    );
+    )
 }
-export default RegistrationPopupForm;
+export default RegistrationSection;

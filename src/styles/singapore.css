@@ -175,9 +175,9 @@ input.c_code {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 38px;
     font-weight: 700;
-    line-height: 52px;
     letter-spacing: 0.02em;
     color: #1E4F91;
+    margin-bottom: 0;
 }
 
 .about_heading h3 {
@@ -211,6 +211,12 @@ input.c_code {
     background-size: contain;
 } */
 
+.location_base_imgbox img {
+    float: right;
+    position: relative;
+    right: -2%;
+}
+
 .about_text>h3 {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 28px;
@@ -228,6 +234,7 @@ input.c_code {
     letter-spacing: normal;
     color: #000;
     font-family: 'TT Commons', sans-serif;
+    margin-bottom: 0;
 }
 
 .list_text p {
@@ -260,6 +267,22 @@ input.c_code {
     padding: 50px;
     text-align: left;
     margin-bottom: 50px;
+}
+
+.whyDamacSection .whyDamacBox {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    padding: 75px 75px 50px 75px;
+    text-align: left;
+    margin-bottom: 50px;
+
+    .row {
+        text-align: left;
+    }
+
+    >.row:first-child {
+        margin-bottom: 50px;
+    }
 }
 
 .whyDamacSection {
@@ -435,14 +458,399 @@ input.c_code {
     border-top: 2px solid #DE8F05;
 }
 
+.singapore_location_img {
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 25%;
+}
+
+
+/* Registration Section */
+
+.formSection {
+    background-color: #1F4E91;
+    text-align: left;
+
+    h2 {
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 68.41px;
+        letter-spacing: 0.04em;
+        color: #fff;
+        text-align: left;
+    }
+
+    p {
+        font-family: 'TT Commons', sans-serif;
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 32px;
+        color: #fff;
+        text-align: left;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        border-color: unset !important;
+        border: 1px solid #7F868D !important;
+        margin-bottom: 20px;
+        height: 60px;
+        padding: 10px 18px;
+        font-size: 18px;
+        color: #575756;
+        border-radius: 10px;
+        /* background-color: rgba(255, 255, 255, 0.1); */
+
+        :focus {
+            outline: none;
+        }
+
+        :focus-visible {
+            outline: none !important;
+        }
+    }
+
+    .react-tel-input input.form-control {
+        width: 100%;
+        border-color: unset !important;
+        margin-bottom: 20px !important;
+        height: 60px;
+        padding: 10px 18px;
+        padding-left: 50px;
+        font-size: 18px;
+        color: #575756;
+        border-radius: 16px !important;
+        /* background-color: rgba(255, 255, 255, 0.1); */
+
+        :focus {
+            outline: none;
+        }
+
+        :focus-visible {
+            outline: none !important;
+        }
+    }
+
+    input[type="submit"] {
+        background-color: #F99C16;
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    .react-tel-input .country-list {
+        text-align: left;
+    }
+
+    .react-tel-input .selected-flag {
+        padding-left: 15px;
+    }
+
+    .flag-dropdown {
+        border-bottom: unset !important;
+    }
+}
+
+/* styles.css or your component's CSS file */
+.btndisabled {
+    background-color: #ccc;
+    /* Light gray background */
+    color: #666;
+    /* Dark gray text */
+    cursor: not-allowed;
+    /* Change cursor to indicate it’s not clickable */
+    opacity: 0.6;
+    /* Slightly transparent */
+}
+
+.ReactModal__Body--open {
+    overflow: hidden;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.registrationPopupForm {
+    background-color: #F2F2F2;
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* top: 5%; */
+    border-radius: 20px;
+
+    .container-fluid {
+        padding: 0;
+
+        .container {
+            padding: 0;
+        }
+    }
+
+    .registration_img>img {
+        border-radius: 20px 0 0 20px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 95%;
+        border: none;
+        margin-bottom: 15px;
+        height: 50px;
+        background: transparent;
+        border-bottom: 1px solid #828D98;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: 200;
+        display: block;
+        color: #575756;
+    }
+
+    input[type="text"]:focus-visible,
+    input[type="email"]:focus-visible,
+    input.form-control:focus-visible {
+        outline: none !important;
+    }
+
+    input.form-control {
+        width: 95% !important;
+        border: none;
+        margin-bottom: 15px !important;
+        height: 50px;
+        background: transparent;
+        border-bottom: 1px solid #828D98;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: 200;
+        border-radius: 0;
+        padding-left: 45px;
+        color: #575756;
+        font-family: 'Helvetica Neue', sans-serif !important;
+    }
+
+    .flag-dropdown {
+        border: none !important;
+        background-color: transparent !important;
+    }
+
+    .selected-flag {
+        background-color: transparent !important;
+        border: none !important;
+    }
+
+    input#agree1 {
+        display: inline;
+
+    }
+
+    label {
+        display: inline;
+        color: #575756;
+        font-family: 'Helvetica Neue', sans-serif !important;
+        font-weight: 200;
+        padding-left: 5px;
+    }
+
+    input.formsubmitbtn {
+        display: block;
+        margin: 50px auto 0 auto;
+        background-color: #EB8023;
+        border: none;
+        font-size: 24px;
+        color: #fff;
+        padding: 10px 100px;
+        border-radius: 50px;
+    }
+
+    .reg_align {
+        align-items: center;
+    }
+}
+
+.registration_img>img {
+    width: 100%;
+}
+
+.mob_img {
+    display: none;
+}
+
+.RegistrationFormModel {
+    position: relative;
+    inset: 0;
+    border: none;
+    background: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px 30px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    .registration-form {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 10%;
+    }
+
+    .close-button {
+        background: transparent;
+        border: none;
+        position: absolute;
+        right: 24.4%;
+        top: 19%;
+        z-index: 1;
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .registration_img {
+        position: relative;
+
+        .reg_desc {
+            position: absolute;
+            top: 10%;
+            padding: 0 80px;
+
+            h2 {
+                color: #085394;
+                font-size: 42px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+}
+
 /* Extra Small Devices, Phones */
 @media (min-width: 320px) and (max-width: 767px) {
+    .whyDamacBox {
+        padding: 50px 15px !important;
+    }
+
+    .whyDamacSection .whyDamacBox {
+        >.row:first-child {
+            margin-bottom: 30px;
+            align-items: center;
+        }
+
+        .pb-30 {
+            padding-bottom: 0;
+        }
+    }
+
+    .registrationPopupForm {
+        width: 80% !important;
+        border-radius: 10px;
+        top: 5%;
+
+        .registration_img>img {
+            border-radius: 10px 10px 0 0;
+        }
+
+        .registration_img {
+            .reg_desc {
+                position: absolute;
+                top: 0;
+                padding: 10%;
+                height: 100%;
+
+                h2 {
+                    color: #085394;
+                    font-size: 21px;
+                    margin-bottom: 7px;
+                }
+
+                p {
+                    font-size: 11px;
+                    line-height: 15px;
+                }
+            }
+        }
+
+        form {
+            padding: 30px;
+
+            input[type="text"],
+            input[type="email"],
+            input.form-control {
+                height: 30px;
+                font-size: 11px;
+                font-weight: 300;
+                font-family: 'TT Commons Regular', sans-serif;
+                border-radius: 0;
+            }
+
+            input.formsubmitbtn {
+                margin: 30px auto 0 auto;
+                font-size: 11px;
+                padding: 7px 60px;
+            }
+
+            label {
+                font-size: 11px;
+                font-weight: 300;
+                font-family: 'TT Commons Regular', sans-serif !important;
+            }
+
+            input#agree1 {
+                width: 10px;
+                height: 10px;
+            }
+        }
+
+    }
+
+    .close-button {
+        right: 5% !important;
+        top: 3% !important;
+
+        img {
+            width: 30px !important;
+            height: 30px !important;
+        }
+    }
+
+    .deck_img {
+        display: none;
+    }
+
+    .mob_img {
+        display: block;
+    }
+
     .singapore_banner {
         height: auto;
+        padding: 8% !important;
+    }
+
+    .singapore_location_img {
+        background-position: right top;
+        background-size: 35%;
+        padding: 0 10px;
+    }
+
+    .about_heading {
+        padding-right: 40% !important;
     }
 
     .footer_center a img {
-        width: 30%;
+        width: 25%;
     }
 
     .roi-map>img {
@@ -469,8 +877,8 @@ input.c_code {
     }
 
     .reg_btn button {
-        font-size: 18px;
-        padding: 10px 30px;
+        font-size: 15px;
+        padding: 10px 50px;
         margin-bottom: 30px;
     }
 
@@ -485,7 +893,17 @@ input.c_code {
 
             p.address,
             p.flate-type {
-                font-size: 15px !important;
+                font-size: 13px !important;
+                margin-bottom: 10px;
+            }
+
+            span {
+                font-weight: 400 !important;
+            }
+
+            p.price {
+                font-size: 16px !important;
+                font-weight: 500 !important;
             }
         }
     }
@@ -494,19 +912,21 @@ input.c_code {
         & .box_details {
             button {
                 font-size: 16px !important;
+                font-weight: 500 !important;
             }
         }
     }
 
     .about_heading h2 {
-        font-size: 24px;
+        font-size: 23px;
         line-height: normal;
         letter-spacing: normal;
     }
 
     .dot {
-        height: 8px !important;
-        width: 8px !important;
+        height: 6px !important;
+        width: 6px !important;
+        margin-left: 3px !important;
     }
 
     .about_heading h3 {
@@ -533,6 +953,8 @@ input.c_code {
 
     .whyus_text span {
         font-size: 12px;
+        margin-bottom: 30px;
+        display: block;
     }
 
     .damac_logo>img {
@@ -554,6 +976,7 @@ input.c_code {
         font-size: 22px;
         line-height: normal;
         letter-spacing: normal;
+        margin-bottom: 0;
     }
 
     .list_text p {
@@ -582,11 +1005,11 @@ input.c_code {
 
     .damac-logo-list {
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 0px;
         margin-top: 0px;
 
         img {
-            width: 55%;
+            width: 100%;
         }
     }
 
@@ -627,7 +1050,7 @@ input.c_code {
 
     .about_text>p {
         font-size: 13px;
-        line-height: 26px;
+        line-height: 23px;
     }
 
     .roi-descri p {
@@ -657,6 +1080,10 @@ input.c_code {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .whyDamacBox {
+        padding: 50px 15px;
+    }
+
     .singapore_banner {
         height: auto;
     }
@@ -753,6 +1180,8 @@ input.c_code {
 
     .whyus_text span {
         font-size: 12px;
+        display: block;
+        margin-bottom: 30px;
     }
 
     .col-lg-1 {
@@ -764,7 +1193,55 @@ input.c_code {
     }
 
     .damac-logo-list>img {
-        width: auto;
+        width: 75%;
+    }
+
+    .whyDamacSection .whyDamacBox {
+        padding: 50px;
+
+        >.row:first-child {
+            margin-bottom: 0;
+            align-items: baseline;
+        }
+    }
+
+    .singapore_location_img {
+        background-position: right top;
+        background-size: 20%;
+        padding-right: 0;
+    }
+
+    .formSection {
+
+        input[type="text"],
+        input[type="email"],
+        .react-tel-input input.form-control {
+            height: 50px;
+            font-size: 15px;
+        }
+    }
+
+    .formSection {
+        h2 {
+            font-size: 28px;
+            line-height: normal;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        input[type="submit"] {
+            font-size: 20px;
+        }
+    }
+
+    .about_heading {
+        padding-right: 45% !important;
+    }
+
+    .damac-logo-list {
+        margin-bottom: 0;
     }
 
     .roi-detail h2 {
@@ -860,6 +1337,10 @@ input.c_code {
     /* .home .container {
         max-width: 1140px !important;
     } */
+
+    .whyDamacBox {
+        padding: 50px;
+    }
 
     .roi-map>img {
         width: 100%;

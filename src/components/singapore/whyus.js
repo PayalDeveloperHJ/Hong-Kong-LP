@@ -13,20 +13,33 @@ const WhyUS = () => {
     }
     return (
         <div className='container-fluid whyDamacSection' style={{ backgroundImage: 'url(/img/singapore/why-damacBgImg.jpg)' }}>
-            <div className='container'>
-                <div className='row align-cent bg-section'>
-                    <div className='col-lg-5 col-sm-12 col-xs-12'>
+            <div className='container whyDamacBox'>
+                <div className='row align-cent'>
+                    <div className='col-lg-7 col-sm-7 col-7'>
                         <div className='whyus_text'>
                             <h3>{WhyDamacData?.whyDamacInfo?.title}</h3>
+                        </div>
+                    </div>
+                    {/* <div className='col-lg-1'></div> */}
+                    <div className='col-lg-5 col-sm-5 col-5'>
+                        <div className='damac-logo-list'>
+                            <img src={`${basePath}/${WhyDamacData?.whyDamacInfo?.damaclogo}`} alt='' />
+                        </div>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-lg-5 col-sm-12 col-xs-12'>
+                        <div className='whyus_text'>
+                            {/* <h3>{WhyDamacData?.whyDamacInfo?.title}</h3> */}
                             <p>{WhyDamacData?.whyDamacInfo?.decri}</p>
                             <span>{WhyDamacData?.whyDamacInfo?.asof}</span>
                         </div>
                     </div>
                     {/* <div className='col-lg-1'></div> */}
                     <div className='col-lg-7 col-sm-12 col-xs-12'>
-                        <div className='damac-logo-list'>
+                        {/* <div className='damac-logo-list'>
                             <img src={`${basePath}/${WhyDamacData?.whyDamacInfo?.damaclogo}`} alt='' />
-                        </div>
+                        </div> */}
                         <div className='row'>
                             {WhyDamacData?.whyDamacInfo?.list?.map((item, index) => {
                                 return (
@@ -50,21 +63,23 @@ const WhyUS = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='container'>
                 <div className="row">
                     <div className="reg_btn">
                         <button onClick={() => setIsOpen(true)}>Register your interest</button>
                         <Modal
-                    isOpen={isOpen}
-                    className="RegistrationFormModel"
-                    onRequestClose={onRequestClose}
-                    contentLabel="Registration Modal"
-                    size="lg"
-                    aria-labelledby="contained-modal-title-vcenter"
-                    centered
-                >
-                    <button className="close-button" onClick={onRequestClose}>X</button>
-                    <RegistrationFormPopup />
-                </Modal>
+                            isOpen={isOpen}
+                            className="RegistrationFormModel"
+                            onRequestClose={onRequestClose}
+                            contentLabel="Registration Modal"
+                            size="lg"
+                            aria-labelledby="contained-modal-title-vcenter"
+                            centered
+                        >
+                            <button className="close-button" onClick={onRequestClose}><img src={`${basePath}/img/icons/close_btn.svg`} alt='close Popup' /></button>
+                            <RegistrationFormPopup />
+                        </Modal>
                     </div>
                 </div>
             </div>

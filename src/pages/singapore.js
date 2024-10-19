@@ -4,6 +4,7 @@ import PropertyListSection from '../components/singapore/propertyList';
 import AboutSection from '../components/singapore/aboutSection';
 import WhyUS from '../components/singapore/whyus';
 import ROISection from '../components/singapore/roiSection';
+import RegistrationSection from '../components/singapore/registrationSection';
 import FAQSection from '../components/singapore/faqSection';
 import Footer from '../components/comman/footer';
 import '../styles/singapore.css';
@@ -17,6 +18,7 @@ const Singapore = () => {
       <WhyUS />
       <PropertyListSection />
       <ROISection />
+      <RegistrationSection />
       <FAQSection />
       <Footer />
     </div>

@@ -539,7 +539,7 @@ button.agent_talk_btn {
         top: 10%;
     }
 
-    .close-button {
+    /* .close-button {
         background: #F99C16;
         color: #fff;
         font-size: 16px;
@@ -552,7 +552,7 @@ button.agent_talk_btn {
         height: 30px;
         border-radius: 50px;
         z-index: 1;
-    }
+    } */
 
 }
 
@@ -765,9 +765,38 @@ button.agent_talk_btn {
         & .box_details {
             h3 {
                 color: #2A3884;
-                font-size: 18px;
+                font-size: 16px;
             }
 
+        }
+    }
+
+    .formSection {
+
+        input[type="text"],
+        input[type="email"] {
+            height: 50px;
+            padding: 10px 18px;
+            font-size: 13px;
+        }
+
+        .react-tel-input input.form-control {
+            height: 50px;
+            font-size: 13px !important;
+            border-radius: 10px !important;
+        }
+        input[type="submit"] {
+            font-size: 18px;
+        }
+        h2 {
+            font-size: 23px;
+            font-weight: 500;
+            line-height: normal;
+            margin-top: 30px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 23px;
         }
     }
 
@@ -850,7 +879,7 @@ button.agent_talk_btn {
             border-right: none !important;
 
             a {
-                font-size: 20px;
+                font-size: 15px;
                 color: #fff;
                 padding: 0 10px;
                 text-decoration: none;
@@ -891,14 +920,14 @@ button.agent_talk_btn {
         }
     }
 
-    .close-button {
+    /* .close-button {
         font-size: 25px !important;
         right: 2% !important;
         top: 2% !important;
         width: 40px !important;
         height: 40px !important;
         background-color: unset !important;
-    }
+    } */
 
     .second_row_section {
         padding: 40px 0 !important;

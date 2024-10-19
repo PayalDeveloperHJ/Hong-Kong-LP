@@ -44,7 +44,7 @@ const PropertyList = () => {
                                             aria-labelledby="contained-modal-title-vcenter"
                                             centered
                                         >
-                                            <button className="close-button" onClick={onRequestClose}>X</button>
+                                            <button className="close-button" onClick={onRequestClose}><img src={`${basePath}/img/icons/close_btn.svg`} alt='close Popup' /></button>
                                             <RegistrationFormPopup />
                                         </Modal>
 

@@ -174,7 +174,7 @@ const RegistrationForm = () => {
             >
                 <button className="close-button"
                     onClick={closeModal}
-                >X</button>
+                ><img src={`${basePath}/img/icons/close_btn.svg`} alt='close Popup' /></button>
                 <ThankYouPopup />
             </Modal>
 

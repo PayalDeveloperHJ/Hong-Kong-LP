@@ -28,6 +28,7 @@
     "whyDamacInfo": {
         "title": "WHY DAMAC PROPERTIES",
         "decri": "DAMAC Properties has been at the forefront of the Middle East’s luxury real estate market since 2002, delivering luxury residential, commercial, and leisure properties across the region, including the UAE, Saudi Arabia, Qatar, Jordan, Lebanon, Maldives, Canada, and the United Kingdom.",
+        "asof": "*As of 9th May, 2024",
         "damaclogo": "../img/singapore/damac-logo.png",
         "list": [
             {
@@ -115,5 +116,9 @@
                 "answer": "Foreign buyers in Dubai can generally obtain mortgages with 60-80% loan-to-value (LTV) ratios. Interest rates in Dubai are competitive, ranging from 4-6%, which allows greater flexibility. In Singapore, loan-to-value ratios are more restricted, especially for foreign buyers or those purchasing second homes. For more details, let our agent assist you!"
             }
         ]
+    },
+    "RegistrationSection": {
+        "title":"Register for the Event",
+        "description":"Reserve your place today and be part of this exciting experience!"
     }
 }
